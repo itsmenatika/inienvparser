@@ -58,7 +58,7 @@ using ``[]`` will set the current group to ``default`` which is also a defaultly
 * mergeGroups -> allows you to merge groups
 * isIniError -> checks if there was an error in a result
 * getGroup -> gets a group from a result
-* getvalue -> gets a value from a group
+* getValue -> gets a value from a group
 * getValueQuick -> gets a value from a result
 * initIniFile -> loads a file and returns a result
 
