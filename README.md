@@ -29,7 +29,7 @@ You don't need to use other files.
 
 # how to use?
 
-[here are instructions](docs/howto.md)
+[here are instructions](docs/index.md)
 
 # license
 
