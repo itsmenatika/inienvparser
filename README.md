@@ -7,12 +7,12 @@ It does not require any external c++ library
 ## The structure of the project
 
 * ``/lib/liep.h`` -> this is a file that you can use to link as a header to your c++ project
-* ``/obj/liep.o`` -> this is an object file that you can use to compile your c++ project
+* ``/obj/liep.o`` -> this is an object file that you can use to compile your c++ project (after a compilation)
 * ``/src/liep.cpp`` -> is the source code
 * ``compile.bat`` -> a compilation script
 * ``main.cpp`` -> tests that i have used during creating it
 * ``test.ini`` -> a test .ini file with all functionalities
-* ``main.o`` -> an object file of main.cpp
+* ``main.o`` -> an object file of main.cpp (after a compilation)
 * ``main.exe`` -> the compiled thing
 * ``docs/`` -> just docs
 
