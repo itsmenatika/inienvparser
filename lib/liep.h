@@ -7,16 +7,10 @@
 #include <string>
 #include <filesystem>
 
-using groupvalues = std::map<std::string, std::string>;
-using inigroups = std::map<std::string, groupvalues>;
-
-using initresult = std::pair<bool, inigroups>;
-
 namespace inireader{
     const std::string defaultGroup = "default";
 
-
-
+	// shortcuts
     using groupvalues = std::map<std::string, std::string>;
     using inigroups = std::map<std::string, groupvalues>;
     
