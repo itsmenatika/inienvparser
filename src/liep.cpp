@@ -1,3 +1,5 @@
+#include "liep.h"
+
 inireader::initresult inireader::mergeResults(inireader::initresult& first, inireader::initresult& second){
 
     first.second.insert(second.second.begin(), second.second.end());
@@ -48,7 +50,7 @@ std::pair<bool, std::string> getValueQuick(const inireader::initresult& res, con
 
 
 
-initresult inireader::initIniFile(const std::filesystem::path& loc){
+inireader::initresult inireader::initIniFile(const std::filesystem::path& loc){
     // create a stream from that
     std::ifstream fileReader(loc);
 

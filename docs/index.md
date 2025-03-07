@@ -53,6 +53,8 @@ using ``[]`` will set the current group to ``default`` which is also a defaultly
 
 
 # functions
+ 
+all of these use namespace named inireader:
 
 * mergeResults -> allows you to merge results
 * mergeGroups -> allows you to merge groups

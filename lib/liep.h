@@ -6,6 +6,8 @@
 #include <map>
 #include <string>
 #include <filesystem>
+#include <iostream>
+#include <fstream>
 
 namespace inireader{
     const std::string defaultGroup = "default";
