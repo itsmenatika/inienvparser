@@ -1,10 +1,3 @@
-#include <string>
-#include <map>
-#include <filesystem>
-#include <iostream>
-#include <fstream>
-#include "liep.h"
-
 inireader::initresult inireader::mergeResults(inireader::initresult& first, inireader::initresult& second){
 
     first.second.insert(second.second.begin(), second.second.end());
